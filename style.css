@@ -30,7 +30,7 @@ img {
   --title-color: #fff;
   --text-color: #fff;
   --text-color-light: #fff;
-  --body-color: #2e2e41;
+  --body-color: #252525;
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -298,7 +298,7 @@ nav.show div.icon-close {
 
 /*ABOUT*/
 #about {
-  background: #2e2e41;
+  background: #252525;
 }
 
 #about .container {
@@ -362,7 +362,7 @@ nav.show div.icon-close {
 
 /*TESTIMONIALS*/
 #testimonials {
-  background: #2e2e41;
+  background: #252525;
 }
 
 #testimonials .container {
