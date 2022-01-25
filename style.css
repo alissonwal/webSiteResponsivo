@@ -52,6 +52,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+main {
+  background-image: url('https://images.unsplash.com/photo-1637682184683-74e6d34ed72d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2127&q=80');
+
+  background-size: cover;
+}
+
 .title {
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
@@ -77,11 +83,15 @@ body {
 .divider-1 {
   height: 1px;
   background: #fff;
+  width: 65%;
+  margin: auto;
 }
 
 .divider-2 {
   height: 1px;
   background: #fff;
+  width: 65%;
+  margin: auto;
 }
 
 /*LAYOUT*/
@@ -297,9 +307,6 @@ nav.show div.icon-close {
 }
 
 /*ABOUT*/
-#about {
-  background: #252525;
-}
 
 #about .container {
   margin: 0;
@@ -361,9 +368,6 @@ nav.show div.icon-close {
 }
 
 /*TESTIMONIALS*/
-#testimonials {
-  background: #252525;
-}
 
 #testimonials .container {
   margin-left: 0;
